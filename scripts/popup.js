@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Datos del popup para cada skill
     const skillTexts = {
-        "Ciberseguridad / Hacking Ético": "- Auditorías de ciberseguridad. \n- Securización de sistemas linux y servidores web.\n - Creacion de entornos vulnerables con fines educativos.",
-        "Docencia": " - Docencia de ciberseguridad / hacking ético.\n - Enseñanza de programación con Python, Bash o Java.\n - Docencia de otras áreas de la informática (Bases de datos, redes, etc.).",
-        "Programación": " - Desarrollo de aplicaciones web o en plataforma.\n - Automatización de tareas mediante scripting.\n - Conocimiento en lenguajes como Python, JavaScript, y más."
+        "Ciberseguridad / Hacking Ético": "- Detección y mitigación de vulnerabilidades en redes corporativas \n- Implementación de medidas defensivas fente a ciberataques\n- Simulación de ataques para evaluar la resilencia del sistema",
+        "Certificaciones": " - Formación continua en ciberseguridad ofensiva y defensiva\n - Certificaciones reconocidas internacionalmente en seguridad informática\n - Preparación y superación de exámenes como ComPTIA Security+ y eJPT Junior Pentester",
+        "Programación": " - Automatización de tareas de análisis y pentesting con Python\n - Desarrollo de scripts para scaneo de vulnerabilidades\n - Integración de Python en entornos de hacking ético y pruebas de intrusión"
     };
     
     

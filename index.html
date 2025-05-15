@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Landing page personal de un informático especializado en ciberseguridad">
-    <title>👋 Mario Álvarez Ferńandez</title>
+    <title>-- Marcos Alfaro -- </title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,12 +18,26 @@
     <!-- Video de fondo -->
     <section class="principal">
         <header>
+            <style>
+                 nav a {
+                color: black;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                font-size: 16px;
+                }
+
+                nav a:hover {
+                color: rgb(219, 98, 29);
+                font-size: 18px;
+                }
+            </style>
             <nav>
                 <ul>
                     <li><a href="./sobre-mi/index.html">👋 Sobre Mí |</a></li>
-                    <li><a href="#">Docencia |</a></li>
+                    <li><a href="#">Ciberseguridad |</a></li>
+                    <li><a href="#">Certificaciones |</a></li>
                     <li><a href="#">Programación |</a></li>
-                    <li><a href="#">Ciberseguridad</a></li>
+                    
                 </ul>
             </nav>
         </header>
@@ -34,39 +48,37 @@
         </video>
 
         <div class="principal-contenido">
-            <h1>Hola, soy Mario</h1>
-            <h2>Informático especializado en Ciberseguridad y Docencia</h2>
+            <h1>Porfolio de Marcos Alfaro</h1>
+            <h2>Informático especializado en Ciberseguridad</h2>
             <p id="dynamic-text">Auditorías de ciberseguridad.</p>
-            <a href="#skills" class="cta-button">¿Cómo te puedo ayudar?</a>
+            <a href="#skills" class="cta-button">Estoy para ayudarte</a>
         </div>
     </section>
 
     <section id="sobre-mi">
         <h2>¿Quién soy?</h2>
-        <p>Soy un informático freelance especializado en ciberseguridad y la docencia.</p>
+        <p>Soy un informático freelance especializado en ciberseguridad.</p>
         <p>Mi experiencia incluye una amplia gama de habilidades y conocimientos en la informática.</p>
         <p>No dudes en <a href="https://www.linkedin.com/in/maalfer1" target="_blank" style="font-weight: bold; color: white; text-decoration: none;">contactar</a>.</p>
-        <a href="https://www.youtube.com/@ElPinguinoDeMario" class="cta-button" target="_blank">
-            <i class="bi bi-youtube"></i> Conóceme
-        </a>
+        
     </section>
 
     <section id="skills">
         <h2>Habilidades</h2>
         <div class="skills-grid">
             <div class="skill-item" data-skill="Ciberseguridad / Hacking Ético">
-                <h3>Ciberseguridad / Hacking Ético</h3>
-                <p>Identificando vulnerabilidades y brechas en sistemas de seguridad.</p>
+                <h3>Ciberseguridad </h3>
+                <p>Comprometido con la protección de activos digitales y defensa ante amenazas cibernéticas</p>
                 <a href="#" class="cta-button">Más información</a>
             </div>
-            <div class="skill-item" data-skill="Docencia">
-                <h3>Docencia</h3>
-                <p>Protección de la integridad y confidencialidad de la información.</p>
+            <div class="skill-item" data-skill="Certificaciones">
+                <h3>Certificaciones</h3>
+                <p>Estas certificaciones avalan mi compromiso con el aprendizaje continuo, siempre activo</p>
                 <a href="#" class="cta-button">Más información</a>
             </div>
             <div class="skill-item" data-skill="Programación">
                 <h3>Programación</h3>
-                <p>Despliegue y configuración de sistemas avanzados de defensa.</p>
+                <p>Dominio de múltiples lenguajes y frameworks para transformar ideas en código robusto</p>
                 <a href="#" class="cta-button">Más información</a>
             </div>
         </div>
@@ -101,10 +113,7 @@
                 <h3>Linux y Sistemas Operativos</h3>
                 <p>Administración, instalación y optimización de sistemas Linux.</p>
             </div>
-            <div class="service-item" data-delay="0.8s">
-                <h3>Asesoría en Informática General</h3>
-                <p>Soporte y soluciones tecnológicas adaptadas a tus necesidades.</p>
-            </div>
+            
     </section>
 
     <section id="seccion-galeria">
@@ -229,9 +238,41 @@
         </div>
     </section>
     
+    
+
+    <section id="projects">
+        <h2>Mis Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Backend</h3>
+                <p>Curso básico de Django. Objetivo: Demostrar que se domina los fundamentos del framework web de Python</p>
+                <br>
+                <a href="https://dockerlabs.es" target="_blank">
+                    <img src="images/backend.jpg" alt="Proyecto 1" class="project-img">
+                </a>
+                          
+            </div>
+            <div class="project-item">
+                <h3>Python</h3>
+                <p>Desarrollo de proyectos en Python orientados a la automatización, análisis de datos y creación de herramientas personalizadas </p>
+                <br>
+                <a href="https://www.youtube.com/@ElPinguinoDeMario/" target="_blank">
+                    <img src="images/python.jpg" alt="Proyecto 1" class="project-img">
+                </a>
+            </div>
+            <div class="project-item">
+                <h3>Fronted</h3>
+                <p>Desarrollo frontend con lenguajes como HTML, CSS y JavaScript, utilizando herramientas y librerías como Bootstrap, React y control de versiones con Git</p>
+                <br>
+                <a href="https://elrincondelhacker.es" target="_blank">
+                    <img src="images/fronted.png" alt="Proyecto 1" class="project-img">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <section class="videos">
-        <h2>Mis cursos Gratuitos</h2>
+        <h2>Recursos interesantes</h2>
         <div>
             <div class="video">
                 <p class="video-title">Bash Scripting</p>
@@ -284,39 +325,6 @@
         </div>
     </section>
     
-    
-    
-
-    <section id="projects">
-        <h2>Mis Proyectos</h2>
-        <div class="projects-grid">
-            <div class="project-item">
-                <h3>Dockerlabs</h3>
-                <p>Plataforma donde se alojan laboratorios vulnerables hechos en docker para practicar hacking ético con el menor consumo de recursos posibles.</p>
-                <br>
-                <a href="https://dockerlabs.es" target="_blank">
-                    <img src="images/ballena.jpg" alt="Proyecto 1" class="project-img">
-                </a>
-                          
-            </div>
-            <div class="project-item">
-                <h3>El Pingüino de Mario</h3>
-                <p>Canal de YouTube donde se imparte formación sobre informática, programación y sobre todo ciberseguridad y hacking ético, entre otras cosas.</p>
-                <br>
-                <a href="https://www.youtube.com/@ElPinguinoDeMario/" target="_blank">
-                    <img src="images/pinguino.png" alt="Proyecto 1" class="project-img">
-                </a>
-            </div>
-            <div class="project-item">
-                <h3>El Rincón del Hacker</h3>
-                <p>Academia especializada en la ciberseguridad donde se enseña desde cero y paso a paso, así como la impartición de otras materias relacionadas.</p>
-                <br>
-                <a href="https://elrincondelhacker.es" target="_blank">
-                    <img src="images/academia.png" alt="Proyecto 1" class="project-img">
-                </a>
-            </div>
-        </div>
-    </section>
 
     <section id="referencias-alumnos">
         <h2>Referencias de la Comunidad - En fase beta 😉</h2>
@@ -416,14 +424,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 text-start">
-                    <p>&copy; 2024 - Todos los derechos reservados</p>
+                    <p>&copy; 2025 - Todos los derechos reservados</p>
                 </div>
                 
                 <div class="col-4 text-end">
                     <p style="color: white; font-weight: bold;">
 			            Powered By 
 			            <a href="https://www.linkedin.com/in/maalfer1" target="_blank" rel="noopener noreferrer" style="color: white; font-weight: bold;">
-			              El Pingüino de Mario
+			              Marcos Alfaro
 			            </a>
 		            </p>
                 </div>

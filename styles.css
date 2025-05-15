@@ -1,4 +1,6 @@
+
 /* Con el asterisco aplico estilos a toda la web */
+
 
 * {
     margin: 0;
@@ -11,11 +13,11 @@ body, html {
     padding: 0;
     height: 100%;
     overflow-x: hidden;
-    font-family: 'Fira Code', monospace; /* Aplica Fira Code a todo el cuerpo */
+    font-family: 'Raleway', sans-serif; /* Aplica Fira Code a todo el cuerpo */
 }
 
 h1, h2, h3, p {
-    font-family: 'Fira Code', monospace; /* Aplica Fira Code a elementos específicos */
+    font-family: 'Raleway', sans-serif; /* Aplica Fira Code a elementos específicos */
     
 }
 

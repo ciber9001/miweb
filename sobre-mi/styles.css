@@ -18,6 +18,7 @@ h1, h2, h3, p {
 
 /* Estilos para el header */
 header {
+    
     background-color: rgba(0, 0, 0, 0); /* Fondo completamente transparente */
     padding: 5px;
     color: #fff;
@@ -28,6 +29,8 @@ header {
     z-index: 10;
     transition: transform 0.3s ease; /* Transición para suavizar el ocultamiento/mostrado */
 }
+
+
 
 nav {
     text-align: left; /* Alinea el contenido del nav a la izquierda */

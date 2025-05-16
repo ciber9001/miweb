@@ -306,7 +306,7 @@ footer .container {
     left: 50%;
     width: 200%;
     height: 100px; /* Por aquí puedo ajustar la altura de la ola */
-    background: linear-gradient(to right, rgba(180, 170, 26, 0.893) 0%, rgba(200, 161, 35, 0.938) 50%, rgb(192, 184, 34) 100%);
+    background: linear-gradient(to right, rgba(68, 160, 183, 0.893) 0%, rgba(200, 161, 35, 0.938) 50%, rgb(192, 184, 34) 100%);
     border-radius: 50%;
     transform: translateX(-50%);
     animation: wave 10s linear infinite;
@@ -314,7 +314,7 @@ footer .container {
 
 .wave.wave2 {
     height: 150px; /* Mayor altura para olas más pronunciadas */
-    background: linear-gradient(to right, rgba(210, 193, 26, 0.982) 0%, rgba(200, 185, 29, 0.776) 50%, rgba(200, 196, 34, 0.2) 100%);
+    background: linear-gradient(to right, rgba(113, 150, 171, 0.982) 0%, rgba(200, 185, 29, 0.776) 50%, rgba(200, 196, 34, 0.2) 100%);
     animation: wave 15s linear infinite;
 }
 

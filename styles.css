@@ -20,7 +20,38 @@ h1, h2, h3, p {
     font-family: 'Raleway', sans-serif; /* Aplica Fira Code a elementos específicos */
     
 }
+/* Para tabletas (pantallas menores de 1024px) */
+@media screen and (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Para móviles (pantallas menores de 768px) */
+@media screen and (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .skill-item {
+    margin: 1rem 0;
+  }
+}
 
 /* Estilos para el header */
 header {
@@ -263,7 +294,7 @@ nav ul li a {
 #seccion-galeria {
     position: relative;
     padding: 30px;
-    background-color: #191919; /* Fondo oscuro */
+    background-color: #999191; /* Fondo oscuro */
     overflow: hidden; /* Para ocultar el desbordamiento */
 }
 
